@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: skyblue;
+    font-family: Arial;
+}
+    
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}\
+    
+h1 {
+    border: 5px solid;
+}
+
+h2 {
+    background-color:#F5F5F5;
+    width: 220px;
+    border: solid #000000;
+    padding: 25px;
+    margin: 25px;
+    opacity: 0.8;
+}
+
+h3 {
+    background-color:#F5F5F5;
+    width: 150px;
+    border: solid #000000;
+    padding: 25px;
+    margin: 25px;
+    opacity: 0.8;
+}
+p {
+    background-color: #F5F5F5;
+    width: 900px;
+    border: solid #000000;
+    padding: 25px;
+    margin: 25px;
+    opacity: 0.9;
+}
+    
+img {
+    background-color: ;
+    width: auto;
+    border: 10px solid white;
+    padding: ;
+    margin: 25px;
+}
+body  {
+    background-image: "https://images3.alphacoders.com/714/thumb-1920-714324.png";
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+margin: 100px 250px;
+
+  
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: grey;
+  opacity: 0.8;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  margin: 0px 250px;
+}
+
+.container:hover .overlay {
+  height: 50%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+ul {
+    background-color:#F5F5F5;
+    width: 1000px;
+    border: solid #000000;
+    padding: 25px;
+    margin: 25px;
+    opacity: 0.9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+  width: 25%;
+}
+
+.middle {
+  width: 30%;
+}
+
+.right {
+  width: 45%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body background="https://images3.alphacoders.com/714/thumb-1920-714324.png">
+<div class="navbar">
+  <a href="#home.html">Home</a>
+  <a href="#contact.html">Contact</a>
+  <a href="#faq.html">FAQ</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#backgroundinformation.html">Background Information</a>
+      <a href="#studentlife.html">Animation Student Life</a>
+      <a href="#pirating.html">Pirating Anime</a>
+      <a href="#legalstreamingwebsites.html">Legal Streaming Websites</a>
+    </div>
+  </div> 
+</div>
+
+
+<div class="row">
+  <div class="column left">
+ 
+    
+<h2> Animation Student Life </h2>
+
+<h3><u>Living Area</u></h3>
+    <p>A lot of top class animation schools are located in Tokyo, which is an expensive place to live. It is hard to pay expensive school fees and rent at the same time, especially for young students. (A lot of animators quoting “burn out” within the first few years of their career).</p>
+
+<h3><u>Universities</u></h3>
+       <ul>
+           <div>In Japan:</div>
+            <li><a href="http://www.kyoto-seika.ac.jp/eng/edu/manga/animation/"> Kyoto Seika University</a></li>
+            <img src="http://www.kyoto-seika.ac.jp/eng/images/about/history/img_history.jpg" width="349" height="345">
+           <div>Kyoto Seika University is a private university in Iwakura, Kyoto, Japan. The school's predecessor was founded in 1968, and it was chartered as a university in 1979.</div>
+            <li><a href="https://www.geidai.ac.jp/english/film/animation">Tokyo University of the Arts</a></li>
+           <img src="https://www.codart.nl/wp-content/uploads/2016/11/The-University-Art-Museum-Tokyo-University-of-the-Arts-Tokyo.jpg" width="460" height="345">
+           <div>Tokyo University of the Arts or Geidai is an art school in Japan. Located in Ueno Park, it also has facilities in Toride, Ibaraki, Yokohama, Kanagawa, and Kitasenju, Adachi, Tokyo.</div>
+            <li><a href="http://www.zokei.ac.jp/en/en_am/">Tokyo Zokei University</a></li>
+           <img src="http://resourcemagonline.com/wp-content/uploads/2016/06/6808075899_fb1feaabee_b.jpg" width="460" height="345">
+           <div>Tokyo Zokei University is a private university in Hachioji, Tokyo, Japan, founded in 1966 by Japanese art educator, fashion designer and design journalist, Yoko Kuwasawa.</div>
+            <li><a href="http://www.osaka-geidai.ac.jp/geidai/english/index.html">Osaka University of Arts</a></li>
+           <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Osaka_Prefecture_University_Rinku_Campus.JPG" width="460" height="345">
+           <div>Osaka University of Arts is a private arts university located in Kanan, Minamikawachi District, Osaka Prefecture, Japan.</div>
+           <div> ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ </div>
+           <div>In Other Countries</div>
+           <li><a href="https://aie.edu/courses/game-art-animation/">Academy of Interactive Entertainment</a></li>
+           <img src="http://www.therookies.co/media/reviews/photos/original/13/db/48/academy-of-interactive-entertainment-aie-78-1453952814.jpg" width="460" height="345">
+           <div>Founded in 1996, AIE is celebrating its twenty year anniversary! AIE offers three main programs: Game Art & Animation, Game Programming, and Game Design & Production. Each program runs two years and the AIE site has PDFs with the full tuition breakdown costs for each program sorted by campus. They also offer online classes, holiday courses, summer camps, short courses, certificates, master classes, and even an incubator program.</div>
+           <li><a href="https://www.gobelins-school.com/">Gobelins School of the Image</a></li>
+           <img src="https://i.ytimg.com/vi/SXW4J_Sx3oc/maxresdefault.jpg" width="460" height="345">
+           <div>Located in the heart of Paris, just next to the Latin Quarter, Gobelins is famous for its variety of animation programs and a one-year Video Game Specialized Master’s degree. Established in 1975, the Cinéma Department of Animation offers a four-year, full-time degree for Animated Filmmaking; a one-year, full-time 3D Character Animation degree, and a two-year, full-time Master of Arts in Character Animation and Animated Filmmaking. The school, which also offers a one-year, full-time Motion Design degree, has an international summer school animation program that is taught 100% in English.</div>
+           <li><a href="https://www.sheridancollege.ca/">Sheridan College</a></li>
+           <img src="https://squareonelife.ca/wp-content/uploads/2017/06/sheridan-university-sheridan-college-becoming-university-sheridan-square-one-mississauga-condos-square-one-life.jpg" width="460" height="345">
+           <div>Program offerings include a Bachelor of Animation and Graduate Certificates in 3D Computer Animation, Digital Creature Animation – Technical Direction, and Visual Effects. Sheridan College has been offering animation programs since 1971.</div>
+        </ul>
+  </div>
+    
+  <div class="column middle">
+         
+  </div>
+
+  <div class="column right">
+     <!-- photo of next page  -->
+      <div class="container">
+  <a href="prolife.html"><img src="https://i.pinimg.com/originals/9c/69/19/9c69191b057f6ded64d6980bd62d6714.jpg" alt="Avatar" class="image"></a>
+  <div class="overlay">
+    <div class="text">Professional Animation</div>
+  </div>
+</div>
+      <div class="container">
+  <a href="pirating.html"><img src="https://vignette.wikia.nocookie.net/onepiece/images/f/f7/We_Can%21.png/revision/latest?cb=20160822112152" alt="Avatar" class="image"></a>
+  <div class="overlay">
+    <div class="text">Pirating Anime</div>
+  </div>
+</div>
+      <div class="container">
+  <a href="legalstreamingwebsites.html"><img src="https://services.tegrazone.com/sites/default/files/article-feature-images/crunchyroll-on-shield.jpg" alt="Avatar" class="image"></a>
+  <div class="overlay">
+    <div class="text">Legal Streaming Websites</div>
+  </div>
+</div>
+      <div class="container">
+  <a href="studentlife.html"><img src="https://myanimelist.cdn-dena.com/s/common/uploaded_files/1480897840-06f5af061c57550cdf5aca8d829088e4.jpeg" alt="Avatar" class="image"></a>
+  <div class="overlay">
+    <div class="text">Next Page: Animation Student Life</div>
+  </div>
+</div> 
+      <!-- end of the next page -->
+  </div>
+</div>
+ 
+
+
+    
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: skyblue;
+    font-family: Arial;
+}
+    
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}\
+
+/* column */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 50%;
+}
+
+.middle {
+  width: 20%;
+}
+
+.right {
+        width: 25%;
+    }
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    
+</style>
+</head>
+    
+<body>
+    
+ <div class="navbar">
+  <a href="#home.html">Home</a>
+  <a href="#contact.html">Contact</a>
+  <a href="#faq.html">FAQ</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#backgroundinformation.html">Background Information</a>
+      <a href="#studentlife.html">Animation Student Life</a>
+      <a href="#pirating.html">Pirating Anime</a>
+      <a href="#legalstreamingwebsites.html">Legal Streaming Websites</a>
+    </div>
+  </div> 
+</div>
+
+    
+<!-- column -->
+<h2>Three Unequal Columns</h2>
+
+<div class="row">
+  <div class="column left" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column middle" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column right" style="background-color:#ccc;">
+    <h2>Column 3</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+</body> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

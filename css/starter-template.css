@@ -3,5 +3,14 @@ body {
 }
 .starter-template {
   padding: 40px 15px;
-  text-align: center;
+  text-align: left;
 }
+<style>
+div {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid #000000;
+    padding: 25px;
+    margin: 25px;
+}
+</style>
