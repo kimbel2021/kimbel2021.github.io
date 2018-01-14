@@ -68,7 +68,7 @@ h1 {
 
 h2 {
     background-color:#F5F5F5;
-    width: 260px;
+    width: 220px;
     border: solid #000000;
     padding: 25px;
     margin: 25px;
@@ -77,7 +77,7 @@ h2 {
 
 h3 {
     background-color:#F5F5F5;
-    width: 190px;
+    width: 150px;
     border: solid #000000;
     padding: 25px;
     margin: 25px;
@@ -90,11 +90,12 @@ p {
     padding: 25px;
     margin: 25px;
     opacity: 0.9;
-} 
+}
+    
 img {
     background-color: ;
-    width: 570px;
-    border: 5px solid white;
+    width: auto;
+    border: 10px solid white;
     padding: ;
     margin: 25px;
 }
@@ -112,8 +113,9 @@ body  {
   display: block;
   width: 100%;
   height: auto;
-    margin: 0px 400px;
-    height: 200px;
+margin: 100px 250px;
+
+  
 }
 
 .overlay {
@@ -127,7 +129,7 @@ body  {
   width: 100%;
   height: 0;
   transition: .5s ease;
-margin: 0px 400px;
+  margin: 0px 250px;
 }
 
 .container:hover .overlay {
@@ -145,13 +147,56 @@ margin: 0px 400px;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
+ul {
+    background-color:#F5F5F5;
+    width: 1000px;
+    border: solid #000000;
+    padding: 25px;
+    margin: 25px;
+    opacity: 0.9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+  width: 25%;
+}
+
+.middle {
+  width: 30%;
+}
+
+.right {
+  width: 45%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 </style>
 </head>
 <body background="https://images3.alphacoders.com/714/thumb-1920-714324.png">
 <div class="navbar">
-  <a href="#home.html">Home</a>
-  <a href="#contact.html">Contact</a>
-  <a href="#faq.html">FAQ</a>
+  <a href="home.html">Home</a>
+  <a href="contact.html">Contact</a>
+  <a href="faq.html">FAQ</a>
   <div class="dropdown">
     <button class="dropbtn">Dropdown 
       <i class="fa fa-caret-down"></i>
@@ -165,19 +210,61 @@ margin: 0px 400px;
   </div> 
 </div>
 
+
+<div class="row">
+  <div class="column left">
+ 
 <h2> Background Information </h2>
 
 <h3><u>History of Anime</u></h3>
-    <p>Dropping some knowledge on you peasants *mic drop*.</p>
+    <p>The history of anime can be traced back to the start of the 20th century, with the earliest verifiable films dating from 1917.
+
+The first generation of animators in the late 1910s included Ōten Shimokawa, Jun'ichi Kōuchi and Seitaro Kitayama, commonly referred to as the "fathers" of anime. Propaganda films, such as Momotarō no Umiwashi (1943) and Momotarō: Umi no Shinpei (1945), the latter being the first anime feature film, were made during World War II. During the 1970s, anime developed further, with the inspiration of Disney animators, separating itself from its Western roots, and developing distinct genres such as mecha and its super robot subgenre. Typical shows from this period include Astro Boy, Lupin III and Mazinger Z. During this period several filmmakers became famous, especially Hayao Miyazaki and Mamoru Oshii.</p>
+
+<p>In the 1980s, anime became mainstream in Japan, experiencing a boom in production with the rise in popularity of anime like Gundam, Macross, Dragon Ball, and genres such as real robot, space opera and cyberpunk. Space Battleship Yamato and The Super Dimension Fortress Macross also achieved worldwide success after being adapted respectively as Star Blazers and Robotech.</p>
+
+<p>The film Akira set records in 1988 for the production costs of an anime film and went on to become an international success. Later, in 2004, the same creators produced Steamboy, which took over as the most expensive anime film. Spirited Away shared the first prize at the 2002 Berlin Film Festival and won the 2003 Academy Award for Best Animated Feature, while Innocence: Ghost in the Shell was featured at the 2004 Cannes Film Festival.</p>
 <h3><u>Timeline of Animation</u></h3>
     <p> Something just to fill space. Timeline should be here.</p>
 
-<div class="container">
-  <a href="http://127.0.0.1:57608/studentlife.html"><img src="https://myanimelist.cdn-dena.com/s/common/uploaded_files/1480897840-06f5af061c57550cdf5aca8d829088e4.jpeg" alt="Avatar" class="image"></a>
+  </div>
+    
+  <div class="column middle">
+         
+  </div>
+
+  <div class="column right">
+     <!-- photo of next page  -->
+      <div class="container">
+  <a href="prolife.html"><img src="https://i.pinimg.com/originals/9c/69/19/9c69191b057f6ded64d6980bd62d6714.jpg" alt="Avatar" class="image"></a>
+  <div class="overlay">
+    <div class="text">Professional Animation</div>
+  </div>
+</div>
+      <div class="container">
+  <a href="pirating.html"><img src="https://vignette.wikia.nocookie.net/onepiece/images/f/f7/We_Can%21.png/revision/latest?cb=20160822112152" alt="Avatar" class="image"></a>
+  <div class="overlay">
+    <div class="text">Pirating Anime</div>
+  </div>
+</div>
+      <div class="container">
+  <a href="legalstreamingwebsites.html"><img src="https://services.tegrazone.com/sites/default/files/article-feature-images/crunchyroll-on-shield.jpg" alt="Avatar" class="image"></a>
+  <div class="overlay">
+    <div class="text">Legal Streaming Websites</div>
+  </div>
+</div>
+      <div class="container">
+  <a href="studentlife.html"><img src="https://myanimelist.cdn-dena.com/s/common/uploaded_files/1480897840-06f5af061c57550cdf5aca8d829088e4.jpeg" alt="Avatar" class="image"></a>
   <div class="overlay">
     <div class="text">Next Page: Animation Student Life</div>
   </div>
+</div> 
+      <!-- end of the next page -->
+  </div>
 </div>
+ 
+
+
     
 </body>
 </html>
