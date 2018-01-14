@@ -8,6 +8,7 @@
     background-color: skyblue;
     font-family: Arial;
 }
+    
 .navbar a {
     float: left;
     font-size: 16px;
@@ -67,7 +68,7 @@ h1 {
 
 h2 {
     background-color:#F5F5F5;
-    width: 50px;
+    width: 220px;
     border: solid #000000;
     padding: 25px;
     margin: 25px;
@@ -76,7 +77,7 @@ h2 {
 
 h3 {
     background-color:#F5F5F5;
-    width: 159px;
+    width: 150px;
     border: solid #000000;
     padding: 25px;
     margin: 25px;
@@ -90,43 +91,184 @@ p {
     margin: 25px;
     opacity: 0.9;
 }
+    
+img {
+    background-color: ;
+    width: auto;
+    border: 10px solid white;
+    padding: ;
+    margin: 25px;
+}
 body  {
     background-image: "https://images3.alphacoders.com/714/thumb-1920-714324.png";
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-    
-img {
-    background-color: ;
-    width: 570px;
-    border: 5px solid white;
-    padding: ;
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+margin: 100px 250px;
+
+  
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: grey;
+  opacity: 0.8;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+  margin: 0px 250px;
+}
+
+.container:hover .overlay {
+  height: 50%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+ul {
+    background-color:#F5F5F5;
+    width: 1000px;
+    border: solid #000000;
+    padding: 25px;
     margin: 25px;
+    opacity: 0.9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left {
+  width: 25%;
+}
+
+.middle {
+  width: 30%;
+}
+
+.right {
+  width: 45%;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 </style>
 </head>
 <body background="https://images3.alphacoders.com/714/thumb-1920-714324.png">
-
 <div class="navbar">
-  <a href="#home.html">Home</a>
-  <a href="#contact.html">Contact</a>
-  <a href="#faq.html">FAQ</a>
+  <a href="home.html">Home</a>
+  <a href="contact.html">Contact</a>
+  <a href="faq.html">FAQ</a>
   <div class="dropdown">
     <button class="dropbtn">Dropdown 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#backgroundinformation.html">Background Information</a>
-      <a href="#studentlife.html">Animation Student Life</a>
-      <a href="#pirating.html">Pirating Anime</a>
-      <a href="#legalstreamingwebsites.html">Legal Streaming Websites</a>
+      <a href="backgroundinformation.html">Background Information</a>
+      <a href="studentlife.html">Animation Student Life</a>
+      <a href="pirating.html">Pirating Anime</a>
+      <a href="legalstreamingwebsites.html">Legal Streaming Websites</a>
     </div>
   </div> 
 </div>
 
+
+<div class="row">
+  <div class="column left">
+ 
 <h2> FAQ </h2>
 
-<p>Nobody really cares and they don't like to ask questions about this website, however there are some questions about Anime that I can answer because I'm a weeb. Yeh boiiiiii.</p>
+<p>Q: <u>Is this stuff OK for my kids to watch?</u></p>
+<p>A: It depends. Some movies, yes (for example Ponyo). Others, definitely not. Check out the content notes of the reviews here to get detailed information about what to expect, and the box will usually have a mention of the content in the small print on the back somewhere, as well as an age recommendation. In any case, always keep an eye on what your kids watch, especially when it comes to anime.</p>
+<p>Q:<u>What's with the huge eyes?</u></p>
+<p>A: No, it's not some kind of Asian inferiority complex, and actually, not quite all Anime has the big eye style. But, most of it does, and the fact of the matter is that no one is 100% sure why. However, the first person to use that style is usually credited as Osamu Tezuka, the creator of the old Astro Boy TV series among various other very popular TV shows that became the foundation for Japan's entire animation and comic industry. As to where Tezuka got the idea, Fred Ladd, who worked with him, has said (in Akadot interview no longer available online) that he said he was emulating Betty Boop, who was popular in Japan at the time. Other early US-produced animated characters that predate the anime style also have very large eyes (if you look, Bugs Bunny and Mickey Mouse have huge eyes).
+
+The eyes also no doubt relate to the simple fact that humans find big eyes cute (small children have proportionally bigger eyes, compared to adults). In any case, the animated TV series created by Tezuka were very popular, and the style stuck. It has been altered and adapted over the ages, but the eyes have remained roughly the same. I've also heard another reason for the size of the eyes summed up by the old expression "eyes are windows to the soul." The Japanese (and by extrapolation Japanese animation) are very interested in emotion, and what better way to express emotion than through... well, really huge eyes.</p>
+<p>Q: <u>Who created anime, and when?</u></p>
+<p>A: The art form we now call "anime" doesn't have a specific birthdate, and it wasn't exactly created by anyone. But, partly as a result of being either the first or among the first to use the big-eyed style, Tezuka Osamu is generally considered the "father" of anime. He started creating comics in 1947, which were extremely popular, and at the beginning of 1963 Tetsuwan Atomu (known outside Japan as Astro Boy) began airing. That is generally considered the first anime-style animated production. Animation had been produced in Japan as early as 1917, but the style was generally different from what is now considered anime.</p>
+    
+  </div>
+    
+  <div class="column middle">
+         
+  </div>
+
+  <div class="column right">
+     <!-- photo of next page  -->
+      <div class="container">
+  <a href="prolife.html"><img src="https://i.pinimg.com/originals/9c/69/19/9c69191b057f6ded64d6980bd62d6714.jpg" alt="Avatar" class="image"></a>
+  <div class="overlay">
+    <div class="text">Professional Animation</div>
+  </div>
+</div>
+      <div class="container">
+  <a href="pirating.html"><img src="https://vignette.wikia.nocookie.net/onepiece/images/f/f7/We_Can%21.png/revision/latest?cb=20160822112152" alt="Avatar" class="image"></a>
+  <div class="overlay">
+    <div class="text">Pirating Anime</div>
+  </div>
+</div>
+      <div class="container">
+  <a href="legalstreamingwebsites.html"><img src="https://services.tegrazone.com/sites/default/files/article-feature-images/crunchyroll-on-shield.jpg" alt="Avatar" class="image"></a>
+  <div class="overlay">
+    <div class="text">Legal Streaming Websites</div>
+  </div>
+</div>
+      <div class="container">
+  <a href="studentlife.html"><img src="https://myanimelist.cdn-dena.com/s/common/uploaded_files/1480897840-06f5af061c57550cdf5aca8d829088e4.jpeg" alt="Avatar" class="image"></a>
+  <div class="overlay">
+    <div class="text">Animation Student Life</div>
+  </div>
+</div> 
+      <div class="container">
+  <a href="backgroundinformation.html"><img src="https://pm1.narvii.com/5885/8e5a9910c988294a51794b18ee9218e08fe92a1b_hq.jpg" alt="Avatar" class="image"></a>
+  <div class="overlay">
+    <div class="text">Background Information</div>
+  </div>
+</div> 
+      <!-- end of the next page -->
+  </div>
+</div>
+ 
+
+
     
 </body>
 </html>
